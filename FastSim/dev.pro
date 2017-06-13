@@ -59,3 +59,8 @@ HEADERS  += \
 
 FORMS    += \
     gui/PlannerMonitor.ui
+
+INCLUDE += /usr/local/qwt-6.1.3/include
+LIBS += -lqwt
+LIBS += -lfftw3
+LIBS += -L/usr/local/qwt-6.1.3/lib -lqwt
